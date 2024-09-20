@@ -1,0 +1,35 @@
+### addition endpoint
+POST http://localhost:8080/api/calculate/add
+Content-Type: application/json
+
+{
+    "num1": 2,
+    "num2": 3
+}
+
+### subtraction endpoint
+POST http://localhost:8080/api/calculate/subtract
+Content-Type: application/json
+
+{
+    "num1": 5,
+    "num2": 3
+}
+
+### multiplication endpoint
+POST http://localhost:8080/api/calculate/multiply
+Content-Type: application/json
+
+{
+    "num1": 2,
+    "num2": 3
+}
+
+### division endpoint
+POST http://localhost:8080/api/calculate/divide
+Content-Type: application/json
+
+{
+    "num1": 10,
+    "num2": 0
+}
